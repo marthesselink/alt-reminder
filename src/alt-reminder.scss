@@ -1,0 +1,10 @@
+@mixin alt-reminder($args: ()) {
+  $settings: map-merge((
+    'border-width': 5px,
+    'error-color': #cc0000,
+  ), $args);
+
+  img:not([alt]) {
+    border: map-get($settings, 'border-width') solid map-get($settings, 'error-color');
+  }
+}
