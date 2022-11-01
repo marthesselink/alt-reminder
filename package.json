@@ -3,10 +3,10 @@
   "version": "0.0.1",
   "devDependencies": {
     "beepbeep": "^1.2.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-cached": "^1.1.0",
     "gulp-plumber": "^1.1.0",
-    "gulp-scss-lint": "^0.3.9"
+    "gulp-scss-lint": "^1.0.0"
   },
   "scripts": {
     "start": "gulp"
